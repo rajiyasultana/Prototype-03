@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 153026090397543535}
   - component: {fileID: 8072104417774553548}
   - component: {fileID: 4968563568796847768}
+  - component: {fileID: 6707501793311190639}
   m_Layer: 0
   m_Name: Bulate
   m_TagString: Untagged
@@ -119,3 +120,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!114 &6707501793311190639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8805650600198724938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92aa4ed8199918042bbcaf910c1f83d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upBound: 2
+  downBound: -10
