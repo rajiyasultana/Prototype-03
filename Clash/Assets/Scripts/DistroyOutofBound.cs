@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class DistroyOutofBound : MonoBehaviour
 {
-    public float upBound = 2;
-    public float downBound = -10;
+    public float upBound = 30;
+    public float downBound = -30;
     void Start()
     {
         
