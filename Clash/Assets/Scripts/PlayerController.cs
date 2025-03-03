@@ -1,8 +1,23 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    public float horizontalInput;
+    private Rigidbody m_rigidbody;
+
+    private void Awake()
+    {
+        m_rigidbody = GetComponent<Rigidbody>();
+    }
+    public void Jump(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            m_rigidbody.AddForce(Vector3.up * 5f, ForceMode.Impulse); 
+        }
+        
+    }
+    /*public float horizontalInput;
     public float speed = 8;
     public float xRange = 12;
 
@@ -30,5 +45,5 @@ public class PlayerController : MonoBehaviour
             //Lunch a projectile from the player.
             Instantiate(projectilePrefeb, transform.position, projectilePrefeb.transform.rotation);
         }
-    }
+    }*/
 }
