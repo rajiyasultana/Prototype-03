@@ -10,15 +10,26 @@ public class CollisionHandaler : MonoBehaviour
             case "Friendly" :
                 Debug.Log("Everything is fine!");
                 break;
+
             case "Finish":
-                Debug.Log("Welcome to new country!");
+                LoadNextScene();
                 break;
-            case "Fuel":
-                Debug.Log("I am not in the game!!!!");
-                break;
+
             default:
                 ReloadLevel();
                 break;
+        }
+
+        void LoadNextScene()
+        {
+            int currentScene = SceneManager.GetActiveScene().buildIndex;
+            int nextScene = currentScene + 1;
+            if(nextScene == SceneManager.sceneCountInBuildSettings)
+            {
+                nextScene = 0;
+            }
+
+            SceneManager.LoadScene(nextScene);
         }
 
         void ReloadLevel()
