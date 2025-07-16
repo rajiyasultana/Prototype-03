@@ -109,6 +109,7 @@ MonoBehaviour:
     m_Flags: 0
   jumpForce: 1000
   rotationForce: 100
+  mainEngine: {fileID: 8300000, guid: d63077a788112ca439e380cdfe570bb3, type: 3}
 --- !u!65 &2635836142143371344
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -167,8 +168,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d63077a788112ca439e380cdfe570bb3, type: 3}
-  m_Resource: {fileID: 8300000, guid: d63077a788112ca439e380cdfe570bb3, type: 3}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1
@@ -266,6 +267,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 732adb9b66f866d43a252ce268c64669, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelLoadDelay: 2
+  success: {fileID: 8300000, guid: 2ae1f64325cb9c3438375633f76d271c, type: 3}
+  crash: {fileID: 8300000, guid: 1a0426cc35a8ae94fbc2a60202a3c157, type: 3}
 --- !u!1001 &2913773876809390063
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1071,30 +1071,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 48661102922669338, guid: 4d198205b585c914bb0a98dfe2a3c3dc, type: 3}
-      propertyPath: mainEngine
-      value: 
-      objectReference: {fileID: 8300000, guid: d63077a788112ca439e380cdfe570bb3, type: 3}
     - target: {fileID: 2458542712101414835, guid: 4d198205b585c914bb0a98dfe2a3c3dc, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 3002234276025230274, guid: 4d198205b585c914bb0a98dfe2a3c3dc, type: 3}
-      propertyPath: m_Resource
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3002234276025230274, guid: 4d198205b585c914bb0a98dfe2a3c3dc, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773134864136405922, guid: 4d198205b585c914bb0a98dfe2a3c3dc, type: 3}
-      propertyPath: crash
-      value: 
-      objectReference: {fileID: 8300000, guid: 1a0426cc35a8ae94fbc2a60202a3c157, type: 3}
-    - target: {fileID: 5773134864136405922, guid: 4d198205b585c914bb0a98dfe2a3c3dc, type: 3}
-      propertyPath: success
-      value: 
-      objectReference: {fileID: 8300000, guid: 2ae1f64325cb9c3438375633f76d271c, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
