@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Finish pad Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6316699034592386262, guid: 1dd6619ab5991794d86dd0dbf3539a2f, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     - target: {fileID: 6693119672513906284, guid: 1dd6619ab5991794d86dd0dbf3539a2f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.65
